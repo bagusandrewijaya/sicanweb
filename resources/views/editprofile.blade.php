@@ -135,7 +135,7 @@ for (var i = 0; i < cookies.length; i++) {
                     error: function(xhr, status, error) {
                         console.log(xhr.responseText);
 
-      
+      //oke
     var response = JSON.parse(xhr.responseText).response;
 
 vt.error(response, {
