@@ -43,7 +43,7 @@
     </section>
     <section class="u-clearfix u-container-align-center u-image u-section-2" id="sec-1374" data-image-width="2000" data-image-height="1138">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-1"> Why we love our company</h2>
+        <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-1"> Mengapa Sican Jadi Pilihan</h2>
         <div class="u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
@@ -55,8 +55,8 @@
 	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
                 </div>
                 <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2">1</h3>
-                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3"> Professionalism</h5>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-4"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3"> Interaktif</h5>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-4"> Dengan Ui Yang Interaktif Membuat Anak Anak Menjadi Lebih Tertarik Dengan Membaca</p>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
@@ -68,8 +68,8 @@
 	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
                 </div>
                 <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-5">2</h3>
-                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-6"> Individuality</h5>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-7"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-6"> Imajinatif</h5>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-7">Cerita Yang Beragam sekaligus memberikan pelajaran baru dari setiap cerita anak anak</p>
               </div>
             </div>
             <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
@@ -81,8 +81,8 @@
 	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
                 </div>
                 <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-8">3</h3>
-                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-9"> Uniqueness</h5>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-10"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-9"> Video</h5>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-10"> Dengan Video Anak Anak Juga Dapat Mendengerkan cerita berbasis visual</p>
               </div>
             </div>
             <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
@@ -94,125 +94,15 @@
 	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
                 </div>
                 <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-11">4</h3>
-                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-12"> Quality</h5>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-13"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-12"> Kualitas</h5>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-13"> Kami memastikan cerita yang di tulis adalah karangan asli dan tidak mengandung unsur konten yang tidak layak</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-image u-section-3" id="sec-7c1e" data-image-width="2000" data-image-height="1392">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h6 class="u-align-center u-custom-font u-text u-text-default u-text-1">About Us</h6>
-        <h2 class="u-align-center u-custom-font u-text u-text-default u-text-2"> Make kids happy</h2>
-        <p class="u-align-center u-text u-text-default u-text-3">Image from <a href="https://freepik.com/" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-3-base u-btn-1">Freepik</a>
-        </p>
-        <a href="https://nicepage.com/k/awards-website-templates" class="u-align-center u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-3-base u-radius-50 u-btn-2">View more photo</a>
-        <img class="u-image u-image-circle u-image-1" src="../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/7f9710e1ece658cb989a1f77/children-colored-caps-playing_23-2147807858.jpg" alt="" data-image-width="1480" data-image-height="986">
-        <img class="u-image u-image-circle u-image-2" src="../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/acc161c1fe315c0a9625860c/crop-woman-putting-napkin-girl_23-2147783721.jpg" alt="" data-image-width="1480" data-image-height="986">
-        <div class="u-image u-image-circle u-image-3" alt="" data-image-width="1480" data-image-height="986"></div>
-        <div class="u-image u-image-circle u-image-4" alt="" data-image-width="1480" data-image-height="986"></div>
-      </div>
-    </section>
-    <section class="u-clearfix u-container-align-center u-palette-4-dark-3 u-section-4" id="sec-d8b7">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h2 class="u-align-center u-custom-font u-text u-text-default u-text-1"> Call and get a discount</h2>
-        <p class="u-align-center u-text u-text-2"> Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus. Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et semper vestibulum.</p>
-        <a href="https://nicepage.com/k/radio-website-templates" class="u-active-none u-btn u-button-style u-custom-font u-hover-none u-none u-text-hover-palette-3-base u-btn-1"><span class="u-icon u-text-palette-3-base"><svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path></svg><img></span>&nbsp;+1 (234) 567-8910
-        </a>
-      </div>
-    </section>
-    <section class="u-clearfix u-palette-4-base u-section-5" id="sec-daf7">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-align-center u-custom-font u-text u-text-default u-text-1">What We Do</h2>
-        <p class="u-align-center u-text u-text-default-lg u-text-default-xl u-text-2">Image from <a href="https://freepik.com/" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Freepik</a>
-        </p>
-        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-size-21-sm u-size-21-xs u-size-22-lg u-size-22-xl u-size-30-md">
-                <div class="u-layout-col">
-                  <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-                    <div class="u-container-layout u-valign-top u-container-layout-1">
-                      <div class="u-align-center u-clearfix u-group-elements u-group-elements-1">
-                        <div class="u-expanded u-shape u-shape-svg u-text-black">
-                          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xlink:href="#svg-40a1"></use></svg>
-                          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-40a1" style="enable-background:new 0 0 160 160;"><path d="M151.7,132.5c-3.4,6-7.9,11.7-13.3,16.5c-29.2,26.1-54.1-2.3-88.2-3S0,109.5,0,91.6s14.8-31.3,25.3-45.3S33.4,11,51.8,3
-	c15.3-6.6,33.6-0.4,51.6,0.7c11.2,0.7,28.8-3.8,38.2,0.4s11.8,15.4,9.2,22.8c-1.9,5.4-5.5,11.6-12.8,16.5
-	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
-                        </div>
-                        <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3">1</h3>
-                      </div>
-                      <h5 class="u-custom-font u-text u-text-default u-text-4"> Animators</h5>
-                      <p class="u-text u-text-default u-text-5"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
-                    </div>
-                  </div>
-                  <div class="u-container-align-right u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                    <div class="u-container-layout u-valign-top u-container-layout-2">
-                      <div class="u-align-center u-clearfix u-group-elements u-group-elements-2">
-                        <div class="u-expanded u-shape u-shape-svg u-text-black">
-                          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xlink:href="#svg-05ad"></use></svg>
-                          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-05ad" style="enable-background:new 0 0 160 160;"><path d="M151.7,132.5c-3.4,6-7.9,11.7-13.3,16.5c-29.2,26.1-54.1-2.3-88.2-3S0,109.5,0,91.6s14.8-31.3,25.3-45.3S33.4,11,51.8,3
-	c15.3-6.6,33.6-0.4,51.6,0.7c11.2,0.7,28.8-3.8,38.2,0.4s11.8,15.4,9.2,22.8c-1.9,5.4-5.5,11.6-12.8,16.5
-	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
-                        </div>
-                        <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-6">2</h3>
-                      </div>
-                      <h5 class="u-align-right u-custom-font u-text u-text-default u-text-7"> Face Painting</h5>
-                      <p class="u-align-right u-text u-text-default u-text-8"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="u-size-16-lg u-size-16-xl u-size-19-sm u-size-19-xs u-size-30-md">
-                <div class="u-layout-col">
-                  <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-3">
-                    <div class="u-container-layout u-valign-middle u-container-layout-3">
-                      <img class="u-expanded-width u-image u-image-contain u-image-default u-image-1" src="../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/eebdd6f47419505ba310206e/Untitled-2.png" alt="" data-image-width="509" data-image-height="820">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="u-size-21-sm u-size-21-xs u-size-22-lg u-size-22-xl u-size-60-md">
-                <div class="u-layout-col">
-                  <div class="u-container-align-right u-container-style u-layout-cell u-size-30 u-layout-cell-4">
-                    <div class="u-container-layout u-valign-top u-container-layout-4">
-                      <div class="u-align-center u-clearfix u-group-elements u-group-elements-3">
-                        <div class="u-expanded u-shape u-shape-svg u-text-black">
-                          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xlink:href="#svg-05ad"></use></svg>
-                          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-05ad" style="enable-background:new 0 0 160 160;"><path d="M151.7,132.5c-3.4,6-7.9,11.7-13.3,16.5c-29.2,26.1-54.1-2.3-88.2-3S0,109.5,0,91.6s14.8-31.3,25.3-45.3S33.4,11,51.8,3
-	c15.3-6.6,33.6-0.4,51.6,0.7c11.2,0.7,28.8-3.8,38.2,0.4s11.8,15.4,9.2,22.8c-1.9,5.4-5.5,11.6-12.8,16.5
-	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
-                        </div>
-                        <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-9">3</h3>
-                      </div>
-                      <h5 class="u-align-right u-custom-font u-text u-text-default u-text-10"> Games</h5>
-                      <p class="u-align-right u-text u-text-default u-text-11"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
-                    </div>
-                  </div>
-                  <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-5">
-                    <div class="u-container-layout u-valign-top u-container-layout-5">
-                      <div class="u-align-center u-clearfix u-group-elements u-group-elements-4">
-                        <div class="u-expanded u-shape u-shape-svg u-text-black">
-                          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xlink:href="#svg-40a1"></use></svg>
-                          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-40a1" style="enable-background:new 0 0 160 160;"><path d="M151.7,132.5c-3.4,6-7.9,11.7-13.3,16.5c-29.2,26.1-54.1-2.3-88.2-3S0,109.5,0,91.6s14.8-31.3,25.3-45.3S33.4,11,51.8,3
-	c15.3-6.6,33.6-0.4,51.6,0.7c11.2,0.7,28.8-3.8,38.2,0.4s11.8,15.4,9.2,22.8c-1.9,5.4-5.5,11.6-12.8,16.5
-	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
-                        </div>
-                        <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-12">4</h3>
-                      </div>
-                      <h5 class="u-custom-font u-text u-text-default u-text-13"> Games</h5>
-                      <p class="u-text u-text-default u-text-14"> Maecenas vitae nisl eu lacus rutrum aliquam. Integer pellentesque congue enim, pharetra sollicitudin arcu</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <section class="u-clearfix u-image u-section-6" id="carousel_b0db" data-image-width="2000" data-image-height="1392">
       <div class="u-clearfix u-sheet u-valign-middle-md u-sheet-1">
         <div class="u-image u-image-circle u-image-1" alt="" data-image-width="1500" data-image-height="1000"></div>
@@ -237,7 +127,7 @@
           <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <div class="u-container-style u-group u-group-1">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
-                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">"Menjadi berguna bukan sesuatu yang sulit dari membaca kita mendapatkan informasi yang akan berguna di kemudian hari"</p>
+                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">Menjadi berguna bukan sesuatu yang sulit dari membaca kita mendapatkan informasi yang akan berguna di kemudian hari</p>
                 <h5 class="u-align-center u-custom-font u-text u-text-2"> Bagus Andre Wijaya</h5>
                 <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">Flutter & Backend Development</h6>
               </div>
@@ -248,35 +138,35 @@
           <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <div class="u-container-style u-group u-group-1">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
-                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">"2"</p>
-                <h5 class="u-align-center u-custom-font u-text u-text-2"> Nisrina Salma Syahira</h5>
-                <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">mahasiswa ilmu komputer universitas pakuan</h6>
+                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">Sesulit apapun masalah yang kamu hadapi cobalah untuk selalu sabar menghadapinya, karena dengan kesabaran masalah apapun akan mudah diselesaikan.</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-2"> Bayu Aria Prakasa</h5>
+                <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">Mahasiswa Universitas Binaniaga</h6>
               </div>
             </div>
           </div>
         </div>
-        {{-- <div class=" u-carousel-item u-clearfix u-palette-3-base u-section-7-3">
+        <div class=" u-carousel-item u-clearfix u-palette-3-base u-section-7-3">
           <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <div class="u-container-style u-group u-group-1">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
-                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">"3"</p>
-                <h5 class="u-align-center u-custom-font u-text u-text-2"> Bagus Andre Wijaya</h5>
-                <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">Flutter & Backend Development</h6>
+                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">Seburuk apapun hidupmu, tetaplah hidup</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-2">Abdul Salam Husein</h5>
+                <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">Mahasiswa Universitas Binaniaga</h6>
               </div>
             </div>
           </div>
-        </div> --}}
-        {{-- <div class=" u-carousel-item u-clearfix u-palette-3-base u-section-7-3">
+        </div>
+        <div class=" u-carousel-item u-clearfix u-palette-3-base u-section-7-3">
           <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <div class="u-container-style u-group u-group-1">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
-                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">"4"</p>
-                <h5 class="u-align-center u-custom-font u-text u-text-2"> Bagus Andre Wijaya</h5>
-                <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">Flutter & Backend Development</h6>
+                   <p class="u-align-center u-large-text u-text u-text-variant u-text-1">Lorem ipsum dolor sit amet</p>
+                <h5 class="u-align-center u-custom-font u-text u-text-2"> Firstio Anmar</h5>
+                <h6 class="u-align-center u-custom-font u-text u-text-font u-text-3">Web Development</h6>
               </div>
             </div>
           </div>
-        </div> --}}
+        </div>
    
         
       </div>
@@ -345,19 +235,17 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-176d"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the Text Element.</p>
-      </div></footer>
+        </div></footer>
       <section class="u-backlink u-clearfix u-grey-80">
         <span>Redesign</span>
         <p class="u-text">
-          <span>Kelompok 2</span>
-        </p>
-        <p class="u-text">
           <span style="color: red;">&#x2665;</span>
         </p>
-        <a class="u-link" href="https://nicepage.best/" target="_blank">
-          <span>Use This</span>
-        </a>
+        <p class="u-text">
+          <span>Bagus Andre Wijaya</span>
+        </p>
+      
+    
       </section>
       
   

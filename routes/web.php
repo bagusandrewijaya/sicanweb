@@ -31,6 +31,13 @@ Route::get('/login', function () {
 Route::get('/halaman-baru', function () {
     return view('halaman-baru');
 });
+Route::get('/editceritaku', function () {
+    return view('editceritaku');
+});
+
+Route::get('/edit', function () {
+    return view('editprofile');
+});
 Route::get('/test', function () {
     return view('test');
 });

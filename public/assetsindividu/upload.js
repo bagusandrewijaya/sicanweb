@@ -1,67 +1,62 @@
-<!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Preview Image Before Upload | CodingNepal</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   </head>
-   <body>
-      <div class="container">
-         <div class="wrapper">
-            <div class="image">
-               <img src="" alt="">
-            </div>
-            <div class="content">
-               <div class="icon">
-                  <i class="fas fa-cloud-upload-alt"></i>
-               </div>
-               <div class="text">
-                  No file chosen, yet!
-               </div>
-            </div>
-            <div id="cancel-btn">
-               <i class="fas fa-times"></i>
-            </div>
-            <div class="file-name">
-               File name here
-            </div>
-         </div>
-         <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
-         <input id="default-btn" type="file" hidden>
-      </div>
-      <script>
-         const wrapper = document.querySelector(".wrapper");
-         const fileName = document.querySelector(".file-name");
-         const defaultBtn = document.querySelector("#default-btn");
-         const customBtn = document.querySelector("#custom-btn");
-         const cancelBtn = document.querySelector("#cancel-btn i");
-         const img = document.querySelector("img");
-         let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
-         function defaultBtnActive(){
-           defaultBtn.click();
-         }
-         defaultBtn.addEventListener("change", function(){
-           const file = this.files[0];
-           if(file){
-             const reader = new FileReader();
-             reader.onload = function(){
-               const result = reader.result;
-               img.src = result;
-               wrapper.classList.add("active");
-             }
-             cancelBtn.addEventListener("click", function(){
-               img.src = "";
-               wrapper.classList.remove("active");
-             })
-             reader.readAsDataURL(file);
-           }
-           if(this.value){
-             let valueStore = this.value.match(regExp);
-             fileName.textContent = valueStore;
-           }
-         });
-      </script>
-   </body>
-</html>
+const form = document.querySelector("form"),
+fileInput = document.querySelector(".file-input"),
+progressArea = document.querySelector(".progress-area"),
+uploadedArea = document.querySelector(".uploaded-area");
+
+form.addEventListener("click", () =>{
+  fileInput.click();
+});
+
+fileInput.onchange = ({target})=>{
+  let file = target.files[0];
+  if(file){
+    let fileName = file.name;
+    if(fileName.length >= 12){
+      let splitName = fileName.split('.');
+      fileName = splitName[0].substring(0, 13) + "... ." + splitName[1];
+    }
+    uploadFile(fileName);
+  }
+}
+
+function uploadFile(name){
+  let xhr = new XMLHttpRequest();
+  xhr.open("POST", "php/upload.php");
+  xhr.upload.addEventListener("progress", ({loaded, total}) =>{
+    let fileLoaded = Math.floor((loaded / total) * 100);
+    let fileTotal = Math.floor(total / 1000);
+    let fileSize;
+    (fileTotal < 1024) ? fileSize = fileTotal + " KB" : fileSize = (loaded / (1024*1024)).toFixed(2) + " MB";
+    let progressHTML = `<li class="row">
+                          <i class="fas fa-file-alt"></i>
+                          <div class="content">
+                            <div class="details">
+                              <span class="name">${name} • Uploading</span>
+                              <span class="percent">${fileLoaded}%</span>
+                            </div>
+                            <div class="progress-bar">
+                              <div class="progress" style="width: ${fileLoaded}%"></div>
+                            </div>
+                          </div>
+                        </li>`;
+    uploadedArea.classList.add("onprogress");
+    progressArea.innerHTML = progressHTML;
+    if(loaded == total){
+      progressArea.innerHTML = "";
+      let uploadedHTML = `<li class="row">
+                            <div class="content upload">
+                              <i class="fas fa-file-alt"></i>
+                              <div class="details">
+                                <span class="name">${name} • Uploaded</span>
+                                <span class="size">${fileSize}</span>
+                              </div>
+                            </div>
+                            <i class="fas fa-check"></i>
+                          </li>`;
+      uploadedArea.classList.remove("onprogress");
+      uploadedArea.insertAdjacentHTML("afterbegin", uploadedHTML);
+    }
+  });
+  let data = new FormData(form);
+  xhr.send(data);
+}

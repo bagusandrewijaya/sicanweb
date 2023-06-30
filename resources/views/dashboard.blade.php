@@ -83,6 +83,7 @@
                       <th>Id Cerita</th>
                       <th>Judul</th>
                       <th>Likes</th>
+                      <th>Edit</th>
                     </tr>
                   </thead>
               <tbody id="cerita-data">
@@ -112,6 +113,9 @@
 <script>
   // Fungsi untuk mendapatkan data cerita dari API
   function getCeritaData(page, uuid) {
+            // Tampilkan loading screen
+            var loadingScreen = $('<div class="loading-screen"></div>').appendTo('body');
+            var loader = $('<div class="loader"></div>').appendTo(loadingScreen);
   $.ajax({
     url: 'http://localhost:1500/ceritabypenulis',
     type: 'POST',
@@ -120,11 +124,17 @@
     },
       dataType: 'json',
       success: function(response) {
+        console.log(response);
         // Memanggil fungsi untuk mengisi tabel dengan data cerita
         fillCeritaTable(response.response);
+        setTimeout(function() {
+                        loadingScreen.remove();
+                       
+                    }, 1000);
       },
       error: function(xhr, status, error) {
         console.error(error);
+        loadingScreen.remove();
       }
     });
   }
@@ -134,14 +144,21 @@
   table.clear().draw();
 
   $.each(data, function(index, cerita) {
+    var editButton = '<button onclick="redirectToEditPage(\'' + cerita.id_cerita + '\', \'' + cerita.judul + '\', \'' + cerita.deskripsi + '\')" class="btn btn-primary">Edit</button>';
+
     table.row.add([
-      cerita.id_cerita,
       cerita.judul,
-      '<div class="d-block badge bg-success">' + cerita.likes + '</div>'
+      cerita.deskripsi,
+      '<div class="d-block badge bg-success">' + cerita.likes + '</div>',
+      editButton
     ]).draw();
   });
 }
 
+function redirectToEditPage(id, judul, deskripsi) {
+  var url = '/editceritaku?id=' + id;
+  window.location.href = url;
+}
   // Inisialisasi DataTables
   $(document).ready(function() {
     $('#cerita-table').DataTable({
