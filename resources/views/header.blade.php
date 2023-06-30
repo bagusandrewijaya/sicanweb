@@ -1,15 +1,17 @@
-
+<?php
+   $nilai_variabel = $_COOKIE['username'];
+?>
 <header class="header">
     <div class="header__inner">
     
     <div class="header__brand">
     <div class="brand-wrap">
     
-    <a href="index.html" class="brand-img stretched-link">
-    <img src="assets/img/logo.svg" alt="Nifty Logo" class="Nifty logo" width="40" height="40">
+    <a href="" class="brand-img stretched-link">
+    <img src="assets/img/logonew.png" alt="Nifty Logo" class="Nifty logo" width="50" height="50">
     </a>
     
-    <div class="brand-title">Nifty</div>
+    <div class="brand-title">Sican</div>
     
     </div>
     </div>
@@ -44,82 +46,7 @@
     
     
     
-    <div class="dropdown">
-    
-    <button class="header__btn btn btn-icon btn-sm" type="button" data-bs-toggle="dropdown" aria-label="Notification dropdown" aria-expanded="false">
-    <span class="d-block position-relative">
-    <i class="demo-psi-bell"></i>
-    <span class="badge badge-super rounded bg-danger p-1">
-    <span class="visually-hidden">unread messages</span>
-    </span>
-    </span>
-    </button>
-    
-    <div class="dropdown-menu dropdown-menu-end w-md-300px">
-    <div class="border-bottom px-3 py-2 mb-3">
-    <h5>Notifications</h5>
-    </div>
-    <div class="list-group list-group-borderless">
-    
-    <div class="list-group-item list-group-item-action d-flex align-items-start mb-3">
-    <div class="flex-shrink-0 me-3">
-    <i class="demo-psi-data-settings text-muted fs-2"></i>
-    </div>
-    <div class="flex-grow-1 ">
-    <a href="#" class="h6 d-block mb-0 stretched-link text-decoration-none">Your storage is full</a>
-    <small class="text-muted">Local storage is nearly full.</small>
-    </div>
-    </div>
-    
-    <div class="list-group-item list-group-item-action d-flex align-items-start mb-3">
-    <div class="flex-shrink-0 me-3">
-    <i class="demo-psi-file-edit text-blue-200 fs-2"></i>
-    </div>
-    <div class="flex-grow-1 ">
-    <a href="#" class="h6 d-block mb-0 stretched-link text-decoration-none">Writing a New Article</a>
-    <small class="text-muted">Wrote a news article for the John Mike</small>
-    </div>
-    </div>
-    
-    <div class="list-group-item list-group-item-action d-flex align-items-start mb-3">
-    <div class="flex-shrink-0 me-3">
-    <i class="demo-psi-speech-bubble-7 text-green-300 fs-2"></i>
-    </div>
-    <div class="flex-grow-1 ">
-    <div class="d-flex justify-content-between align-items-start">
-    <a href="#" class="h6 mb-0 stretched-link text-decoration-none">Comment sorting</a>
-    <span class="badge bg-info rounded ms-auto">NEW</span>
-    </div>
-    <small class="text-muted">You have 1,256 unsorted comments.</small>
-    </div>
-    </div>
-    
-    <div class="list-group-item list-group-item-action d-flex align-items-start mb-3">
-    <div class="flex-shrink-0 me-3">
-    <img class="img-xs rounded-circle" src="assets/img/profile-photos/7.png" alt="Profile Picture" loading="lazy">
-    </div>
-    <div class="flex-grow-1 ">
-    <a href="#" class="h6 d-block mb-0 stretched-link text-decoration-none">Lucy Sent you a message</a>
-    <small class="text-muted">30 minutes ago</small>
-    </div>
-    </div>
-    
-    <div class="list-group-item list-group-item-action d-flex align-items-start mb-3">
-    <div class="flex-shrink-0 me-3">
-    <img class="img-xs rounded-circle" src="assets/img/profile-photos/3.png" alt="Profile Picture" loading="lazy">
-    </div>
-    <div class="flex-grow-1 ">
-    <a href="#" class="h6 d-block mb-0 stretched-link text-decoration-none">Jackson Sent you a message</a>
-    <small class="text-muted">1 hours ago</small>
-    </div>
-    </div>
-    <div class="text-center mb-2">
-    <a href="#" class="btn-link">Show all Notifications</a>
-    </div>
-    </div>
-    </div>
-    </div>
-    
+
     
     <div class="dropdown">
     
@@ -127,70 +54,73 @@
     <i class="demo-psi-male"></i>
     </button>
     
-    <div class="dropdown-menu dropdown-menu-end w-md-450px">
+    <div class="dropdown-menu dropdown-menu-end w-md-200px">
     
     <div class="d-flex align-items-center border-bottom px-3 py-2">
     <div class="flex-shrink-0">
     <img class="img-sm rounded-circle" src="assets/img/profile-photos/1.png" alt="Profile Picture" loading="lazy">
     </div>
     <div class="flex-grow-1 ms-3">
-    <h5 class="mb-0">Aaron Chavez</h5>
-    <span class="text-muted fst-italic">aaron_chavez@example.com</span>
+    <h5 class="mb-0"><?php echo $nilai_variabel; ?></h5>
     </div>
     </div>
     <div class="row">
-    <div class="col-md-7">
+        <div class="list-group list-group-borderless mb-3">
+            <div class="list-group-item text-center border-bottom mb-3">
+                <p class="h1 text-green">
+                    <span class="bi bi-thermometer-half"></span>
+                    <span id="suhu"></span>
+                    <span class="bi bi-degree"></span>C
+                  </p>
+                
+                  <div class="d-flex flex-column align-items-center">
+                    <p class="h6 mb-0">
+                      <i class="fas fa-cloud"></i>
+                      CUACA
+                    </p>
+                    <p class="h6">
+                      Bogor
+                    </p>
+                  </div>
+                  
+                </div>
+         
+                <a href="#" class="list-group-item list-group-item-action" id="logoutButton" data-toggle="modal" data-target="#exampleModalCenter">
+                    <i class="demo-pli-unlock fs-5 me-2"></i> Logout
+                </a>
+        
+            </div>
+    </div>
+    </div>
+    </div>
     
-    <div class="list-group list-group-borderless mb-3">
-    <div class="list-group-item text-center border-bottom mb-3">
-    <p class="h1 display-1 text-green">17</p>
-    <p class="h6 mb-0"><i class="bi bi-cloud fs-3 me-2"></i>CUACA</p>
+    
+    
+    </div>
+    </div>
+    </div>
+    <script>
+     $(document).ready(function() {
+  var apiKey = '8c339b053f1fd6d5ec69f7e82f135ca7';
+  var latitude = -6.5944; // Koordinat latitude untuk Bogor
+  var longitude = 106.7892; // Koordinat longitude untuk Bogor
+  var url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + latitude + '&lon=' + longitude + '&appid=' + apiKey;
 
-    <small class="text-muted">You have new orders</small>
-    </div>
-    <div class="list-group-item py-0 d-flex justify-content-between align-items-center">
-    Today Earning
-    <small class="fw-bolder">$578</small>
-    </div>
-    <div class="list-group-item py-0 d-flex justify-content-between align-items-center">
-    Tax
-    <small class="fw-bolder text-danger">- $28</small>
-    </div>
-    <div class="list-group-item py-0 d-flex justify-content-between align-items-center">
-    Total Earning
-    <span class="fw-bold text-primary">$6,578</span>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-5">
-    
-    <div class="list-group list-group-borderless h-100 py-3">
-    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-    <span><i class="demo-pli-mail fs-5 me-2"></i> Messages</span>
-    <span class="badge bg-danger rounded-pill">14</span>
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">
-    <i class="demo-pli-male fs-5 me-2"></i> Profile
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">
-    <i class="demo-pli-gear fs-5 me-2"></i> Settings
-    </a>
-    <a href="#" class="list-group-item list-group-item-action mt-auto">
-    <i class="demo-pli-computer-secure fs-5 me-2"></i> Lock screen
-    </a>
-<a href="#" class="list-group-item list-group-item-action" id="logoutButton" data-toggle="modal" data-target="#exampleModalCenter">
-    <i class="demo-pli-unlock fs-5 me-2"></i> Logout
-</a>
-
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    
-    
-    </div>
-    </div>
-    </div>
+  $.ajax({
+    url: url,
+    type: 'GET',
+    dataType: 'json',
+    success: function(response) {
+      // Ambil data suhu dalam Celsius dari respons API
+      var temperature = response.main.temp - 273.15;
+      console.log(temperature);
+      // Tampilkan suhu di elemen dengan kelas "display-1"
+      $('#suhu').text(temperature.toFixed(0));
+    },
+    error: function(xhr, status, error) {
+      console.log(xhr.responseText);
+    }
+  });
+});
+    </script>
     </header>

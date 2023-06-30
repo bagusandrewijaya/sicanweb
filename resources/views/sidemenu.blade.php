@@ -1,6 +1,3 @@
-<?php
-   $nilai_variabel = $_COOKIE['username'];
-?>
 
     <nav id="mainnav-container" class="mainnav">
     <div class="mainnav__inner">
@@ -44,7 +41,7 @@
     
     
     <li class="nav-item">
-    <a href="widgets/index.html" class="nav-link mininav-toggle"><i class="demo-pli-gear fs-5 me-2"></i>
+    <a href="{{ '/edit' }}" class="nav-link mininav-toggle"><i class="demo-pli-gear fs-5 me-2"></i>
     <span class="nav-label mininav-content ms-1">Profile</span>
     </a>
     </li>

@@ -38,10 +38,15 @@
                                         </div>
                                     </div>
                              
-                                    <div class="col-12">
-                                        <button type="button" id="uploadButton" class="btn btn-primary">Upload</button>
-
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <button type="button" id="uploadButton" class="btn btn-primary">Upload</button>
+                                        </div>
+                                        <div class="col-1">
+                                            <button type="button" id="deleteButton" class="btn btn-danger">Delete</button>
+                                        </div>
                                     </div>
+                                    
                                 </form>
     
                             </div>
@@ -78,9 +83,10 @@
 
 <script>
     $(document).ready(function() {
+        var idCerita = getUrlParameter('id');
         $('#uploadButton').click(function() {
             var formData = new FormData();
-            formData.append('id_penulis', getCookie('uuid'));
+            formData.append('id_cerita', idCerita);
             formData.append('judul', $('#judul_cerita').val());
             formData.append('cerita', $('#deskripsi_cerita').val());
             formData.append('file', $('#gambar')[0].files[0]);
@@ -91,8 +97,8 @@
             var loader = $('<div class="loader"></div>').appendTo(loadingScreen);
 
             $.ajax({
-                url: 'http://localhost:1500/upload',
-                type: 'POST',
+                url: 'http://localhost:1500/editcerita',
+                type: 'PUT',
                 data: formData,
                 contentType: false,
                 processData: false,
@@ -101,19 +107,19 @@
                     // Lakukan aksi yang sesuai setelah upload berhasil
 
                     // Tampilkan pesan sukses
-                    vt.success("Upload berhasil", {
+                    vt.success("Update berhasil", {
                         title: "Sukses",
                         position: "top-center",
                     });
 
-                    // Reset form
-                    $('#uploadForm')[0].reset();
-                    $('#previewImageGambar').attr('src', '#').hide();
-                    $('#previewVideo').attr('src', '#').hide();
+                    setTimeout(function() {
+                        
+                      window.location.href = '/admin';
+                  }, 4000);
                 },
                 error: function(xhr, status, error) {
                     console.log(xhr.responseText);
-
+                    loadingScreen.remove();
                     // Tampilkan pesan error
                     vt.error("Upload gagal", {
                         title: "Error",
@@ -121,8 +127,11 @@
                     });
                 },
                 complete: function() {
-                    // Sembunyikan loading screen
-                    loadingScreen.remove();
+                    setTimeout(function() {
+                        loadingScreen.remove();
+                        window.location.href = '/admin';
+                    }, 3000);
+                  
                 }
             });
         });
@@ -138,6 +147,103 @@
             return null;
         }
     });
+    $(document).ready(function() {
+        var idCerita = getUrlParameter('id');
+        $('#deleteButton').click(function() {
+
+            // Tampilkan loading screen
+            var loadingScreen = $('<div class="loading-screen"></div>').appendTo('body');
+            var loader = $('<div class="loader"></div>').appendTo(loadingScreen);
+
+            $.ajax({
+                url: 'http://localhost:1500/deletecerita/' + idCerita,
+        type: 'DELETE',
+                type: 'DELETE',
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    console.log(response);
+                    // Lakukan aksi yang sesuai setelah upload berhasil
+
+                    // Tampilkan pesan sukses
+                    vt.success("Proses Menghapus berhasil", {
+                        title: "Sukses",
+                        position: "top-center",
+                    });
+
+                    setTimeout(function() {
+                        
+                      window.location.href = '/admin';
+                  }, 4000);
+                },
+                error: function(xhr, status, error) {
+                    console.log(xhr.responseText);
+                    loadingScreen.remove();
+                    // Tampilkan pesan error
+                    vt.error("Proses Menghapus gagal", {
+                        title: "Error",
+                        position: "top-center",
+                    });
+                },
+                complete: function() {
+                    setTimeout(function() {
+                        loadingScreen.remove();
+                        window.location.href = '/admin';
+                    }, 3000);
+                  
+                }
+            });
+        });
+
+        function getCookie(name) {
+            var cookieArr = document.cookie.split(';');
+            for (var i = 0; i < cookieArr.length; i++) {
+                var cookiePair = cookieArr[i].split('=');
+                if (name === cookiePair[0].trim()) {
+                    return decodeURIComponent(cookiePair[1]);
+                }
+            }
+            return null;
+        }
+    });
+
+    $(document).ready(function() {
+  var idCerita = getUrlParameter('id');
+  if (idCerita) {
+    var formData = new FormData();
+    formData.append('idcerita', idCerita);
+
+    $.ajax({
+      url: 'http://localhost:1500/getCeritaByID',
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      dataType: 'json',
+      success: function(response) {
+        if (response.metadata.code === 200) {
+          var cerita = response.response[0];
+          $('#judul_cerita').val(cerita.judul);
+          $('#deskripsi_cerita').val(cerita.deskripsi);
+        }
+      },
+      error: function(xhr, status, error) {
+        console.error(xhr.responseText);
+      }
+    });
+  }
+
+ 
+});
+function getUrlParameter(name) {
+    var url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+    var results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
 </script>
 
 @endsection

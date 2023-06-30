@@ -898,31 +898,31 @@
 .u-section-6 .u-image-1 {
   width: 266px;
   height: 266px;
-  background-image: url("../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/acc0d4d9b3565fcd99d606be/40ccbc12-0efe-416c-99cd-7000fc547734.jpg");
+  background-image: url("../assets/weare/u3.jpeg");
   background-position: 85.34% 50%;
   margin: 247px auto 0;
 }
 
 .u-section-6 .u-image-2 {
-  width: 376px;
-  height: 376px;
-  background-image: url("../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/139914dc4d435e8c98af65a5/pexels-andrea-piacquadio-774909.jpg");
+  width: 346px;
+  height: 346px;
+  background-image: url("../assets/weare/andre.jpeg");
   background-position: 50% 50%;
-  margin: -448px auto 0 0;
-}
+  margin: -448px auto 0 24px;
+  }
 
 .u-section-6 .u-image-3 {
   width: 346px;
   height: 346px;
-  background-image: url("../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/1ba281bdcfe851808b5b82fe/4fa35b60-d6ac-4d3a-a759-df3d04979186.jpg");
+  background-image: url("../assets/weare/u2.jpg");
   background-position: 50% 50%;
-  margin: -302px 0 0 auto;
+  margin: -302px 24px 0 auto;
 }
 
 .u-section-6 .u-image-4 {
   width: 256px;
   height: 256px;
-  background-image: url("../images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/971dfc030e645b33a6aa7902/5fdfa8af-fbd4-40ce-aa0b-03fbc80c2a7e.jpg");
+  background-image: url("../assets/weare/bayu.jpeg");
   background-position: 50% 50%;
   margin: -14px 205px 0 auto;
 }
